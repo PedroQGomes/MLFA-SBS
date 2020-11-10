@@ -25,25 +25,43 @@
 \section{Arquiteturas e Ferramentas}
 \newpage
 
-\section{1º Dataset}
+\section{Data Set da Competição}
 
 \newpage
 
 
 \subsection{Contexto do Dataset}
 %escrever por palavras nossas
-“O training set deverá ser usado para desenvolver e treinar o modelo de Machine Learning. No training set é fornecida informação referente ao nível de incidentes rodoviários (accidents) de cada registo para que possam treinar os modelos de aprendizagem. O modelo a desenvolver deverá ter, na sua base, features como a magnitude do atraso que se verifica numa determinada hora, o tempo de atraso provocado pelos incidentes, a temperatura, pressão atmosférica e a velocidade do vento, entre outras features que caracterizam um determinado ponto temporal.”
+O dataset utilizado neste projeto é referente ao nível de incidentes rodoviários na zona de Braga e contém algumas features que representam a magnitude do atraso que se verifica a cada hora, a temperatura, a pressão atmosférica, a velocidade do vento e ainda outras features. 
 
-“O test set será utilizado para validar a performance do modelo em dados ainda não vistos pelo mesmo. Neste dataset de teste não é fornecida a class referente ao nível de incidentes rodoviários. O vosso trabalho é prever essa mesma class. Devem utilizar o modelo desenvolvido para prever, para cada registo do test set, o nível de incidentes rodoviários esperados.”
+O principal objetivo é aprimorar um modelo de Machine Learning Baseado em Arvores mas também fazer uma analise exploratoria completa dos dados para se retirar algumas informações importantes do dataset. Outo ponto passa por conseguir preprarar o dataset com técnicas de engenharia de dados para se obter os melhores resultados possiveis. Este dataset é referente a uma competição da plataforma Kaggle
 
-É também disponibilizado um exemplo de um ficheiro de submissão (example_submission.csv) onde é assumido que o nível de incidentes rodoviários esperado para cada registo é Medium. 
-\subsection{Análise e Compreensão dos Dados}
+Em relação as features do dataset estas são apresentadas da seguinte forma:
+
+1)city_name - nome da cidade em causa;
+2)record_date - o timestamp associado ao registo;
+3)magnitude_of_delay - magnitude do atraso provocado pelos incidentes que se verificam no record_date correspondente;
+4)delay_in_seconds - atraso, em segundos, provocado pelos incidentes que se verificam no record_date correspondente;
+5)affected_roads - estradas afectadas pelos incidentes que se verificam no record_date correspondente;
+6)luminosity - o nível de luminosidade que se verificava na cidade de Braga;
+7)avg_temperature - valor médio da temperatura para o record_date na cidade de Braga;
+8)avg_atm_pressure - valor médio da pressão atmosférica para o record_date na cidade de Braga;
+9)avg_humidity - valor médio da humidade para o record_date na cidade de Braga;
+10)avg_wind_speed - valor médio da velocidade do vento para o record_date na cidade de Braga;
+11)avg_precipitation - valor médio de precipitação para o record_date na cidade de Braga;
+12)avg_rain - avaliação qualitativa do nível de precipitação para o record_date na cidade de Braga;
+13)accidents - indicação acerca do nível de incidentes rodoviários que se verificam no record_date correspondente na cidade de Braga.
+
+ 
+\subsection{Análise e Transformação dos Dados}
+
 \subsection{Modelação}
 \subsection{Análise de Resultados}
 \section{Dataset de Competição}
 
 
 \newpage
+\section{DataSet 1}
 \subsection{Contexto do Dataset}
 \subsection{Análise e Compreensão dos Dados}
 \subsection{Modelação}
