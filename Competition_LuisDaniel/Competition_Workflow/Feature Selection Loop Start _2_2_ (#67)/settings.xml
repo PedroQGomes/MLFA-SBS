@@ -9,7 +9,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="maxIterations"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="100"/>
+<entry key="value" type="xint" value="5"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
@@ -30,13 +30,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="maxIterations"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="100"/>
+<entry key="value" type="xint" value="5"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="currentIteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="93"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
@@ -57,30 +57,30 @@
 <config key="included_names">
 <entry key="array-size" type="xint" value="20"/>
 <entry key="0" type="xstring" value="magnitude_of_delay"/>
-<entry key="1" type="xstring" value="delay_in_seconds"/>
-<entry key="2" type="xstring" value="luminosity"/>
-<entry key="3" type="xstring" value="avg_temperature"/>
-<entry key="4" type="xstring" value="avg_atm_pressure"/>
-<entry key="5" type="xstring" value="avg_humidity"/>
-<entry key="6" type="xstring" value="avg_wind_speed"/>
-<entry key="7" type="xstring" value="avg_precipitation"/>
-<entry key="8" type="xstring" value="avg_rain"/>
-<entry key="9" type="xstring" value="Hora"/>
-<entry key="10" type="xstring" value="Quarter"/>
-<entry key="11" type="xstring" value="Month (number)"/>
-<entry key="12" type="xstring" value="Week"/>
-<entry key="13" type="xstring" value="Day of week (number)"/>
-<entry key="14" type="xstring" value="Parte do Dia"/>
-<entry key="15" type="xstring" value="Roads A"/>
-<entry key="16" type="xstring" value="Roads EM"/>
-<entry key="17" type="xstring" value="Roads CM"/>
-<entry key="18" type="xstring" value="Roads IL"/>
+<entry key="1" type="xstring" value="luminosity"/>
+<entry key="2" type="xstring" value="avg_temperature"/>
+<entry key="3" type="xstring" value="avg_atm_pressure"/>
+<entry key="4" type="xstring" value="avg_humidity"/>
+<entry key="5" type="xstring" value="avg_wind_speed"/>
+<entry key="6" type="xstring" value="avg_precipitation"/>
+<entry key="7" type="xstring" value="avg_rain"/>
+<entry key="8" type="xstring" value="Hora"/>
+<entry key="9" type="xstring" value="Quarter"/>
+<entry key="10" type="xstring" value="Month (number)"/>
+<entry key="11" type="xstring" value="Week"/>
+<entry key="12" type="xstring" value="Day of week (number)"/>
+<entry key="13" type="xstring" value="Parte do Dia"/>
+<entry key="14" type="xstring" value="Roads A"/>
+<entry key="15" type="xstring" value="Roads EM"/>
+<entry key="16" type="xstring" value="Roads CM"/>
+<entry key="17" type="xstring" value="Roads IL"/>
+<entry key="18" type="xstring" value="Roads N"/>
 <entry key="19" type="xstring" value="Roads M"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="accidents"/>
-<entry key="1" type="xstring" value="Roads N"/>
+<entry key="0" type="xstring" value="delay_in_seconds"/>
+<entry key="1" type="xstring" value="accidents"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -111,7 +111,7 @@
 <entry key="mutationRate" type="xdouble" value="0.01"/>
 <entry key="elitismRate" type="xdouble" value="0.1"/>
 <entry key="earlyStopping" type="xint" value="-1"/>
-<entry key="maxNumIterations" type="xint" value="100"/>
+<entry key="maxNumIterations" type="xint" value="5"/>
 <entry key="earlyStoppingRandom" type="xint" value="-1"/>
 <entry key="earlyStoppingTolerance" type="xdouble" value="0.01"/>
 </config>
@@ -122,11 +122,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.0.1.v201908131444"/>
-<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.0.1.v201908131444"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.2.v202009241438"/>
+<entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-version" type="xstring" value="0.0.0"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Feature Selection Loop Start (2:2)"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -136,19 +136,19 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 13"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 13"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="5575e904-f78d-43d0-b15e-af2f4caab7a1"/>
+<entry key="file_store_id" type="xstring" value="fa5b9904-3635-4638-ab29-c1359c3e28b5"/>
 </config>
 </config>

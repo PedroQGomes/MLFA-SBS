@@ -87,7 +87,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="4.0.1.v201908131444"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Scorer"/>
+<entry key="name" type="xstring" value="Scorer (deprecated)"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -108,6 +108,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="63bbf850-0c88-41ba-847d-9c1a930bc37b"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
