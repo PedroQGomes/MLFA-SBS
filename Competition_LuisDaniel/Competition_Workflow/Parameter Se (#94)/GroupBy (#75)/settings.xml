@@ -15,7 +15,10 @@
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Error in %"/>
+<entry key="1" type="xstring" value="Size of Test Set"/>
+<entry key="2" type="xstring" value="Error Count"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
@@ -29,33 +32,45 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="enableHilite" type="xboolean" value="false"/>
+<config key="valueDelimiter_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="valueDelimiter" type="xstring" value=", "/>
 <config key="sortInMemory_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="sortInMemory" type="xboolean" value="false"/>
-<config key="aggregationColumn">
-<config key="columnNames">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="columnTypes">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="aggregationMethod">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="inclMissingVals">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-</config>
-<config key="aggregationOperatorSettings"/>
-<config key="patternAggregators"/>
-<config key="dataTypeAggregators"/>
 <config key="columnNamePolicy_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
+<config key="aggregationColumn">
+<config key="columnNames">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Error in %"/>
+</config>
+<config key="columnTypes">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="aggregationMethod">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Mean"/>
+</config>
+<config key="inclMissingVals">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="aggregationOperatorSettings"/>
+<config key="patternAggregators"/>
+<config key="dataTypeAggregators"/>
 <config key="retainOrder_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -66,11 +81,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="inMemory" type="xboolean" value="false"/>
-<config key="valueDelimiter_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="valueDelimiter" type="xstring" value=", "/>
 <config key="nodeVersion_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -79,10 +89,10 @@
 <entry key="typeMatch" type="xbyte" value="0"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Please select at least one group or aggregation column"/>
+<entry key="message" type="xstring" value="No grouping column included. Aggregate complete table."/>
 </config>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.groupby.GroupByNodeFactory"/>
 <entry key="node-name" type="xstring" value="GroupBy"/>

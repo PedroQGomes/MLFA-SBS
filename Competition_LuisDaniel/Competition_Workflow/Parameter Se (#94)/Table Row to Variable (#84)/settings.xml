@@ -10,9 +10,75 @@
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="workspace"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Selected features"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Mean(Error in %)"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
 <entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Nr. of features"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="sCrit"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="maxIterations"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="currentIteration"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID(#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Objective value"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="0.0"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="MNS"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="NM"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="NL"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -24,6 +90,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="CFG_FAILONMISS" type="xstring" value="Use Defaults"/>
+<config key="CFG_Double_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Double" type="xdouble" value="0.0"/>
 <config key="CFG_Integer_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -34,11 +105,6 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="CFG_Long" type="xlong" value="0"/>
-<config key="CFG_Double_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="CFG_Double" type="xdouble" value="0.0"/>
 <config key="CFG_String_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
