@@ -29,7 +29,7 @@
 <entry key="gridColor" type="xstring" value="rgba(230,230,230,1.0)"/>
 <entry key="hasDataset" type="xboolean" value="true"/>
 <config key="dataset">
-<entry key="tableID" type="xstring" value="f48ddd89-4531-4252-bb5f-03ee2b46e529"/>
+<entry key="tableID" type="xstring" value="fe15c6a1-d3fd-4cd1-b718-c27ae5b32e48"/>
 <config key="columnKeys">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="NL"/>
@@ -87,4 +87,5 @@
 <entry key="globalZonedDateTimeFormat" type="xstring" value="YYYY-MM-DD z"/>
 <entry key="timezone" type="xstring" value="Europe/London"/>
 </config>
+<entry key="enforceOrigin" type="xboolean" value="false"/>
 </config>

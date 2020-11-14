@@ -27,6 +27,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="delay_in_seconds"/>
@@ -53,6 +54,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_2">
 <entry key="column_name" type="xstring" value="affected_roads"/>
@@ -79,6 +81,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_3">
 <entry key="column_name" type="xstring" value="luminosity"/>
@@ -105,6 +108,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_4">
 <entry key="column_name" type="xstring" value="avg_temperature"/>
@@ -131,6 +135,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_5">
 <entry key="column_name" type="xstring" value="avg_atm_pressure"/>
@@ -157,6 +162,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_6">
 <entry key="column_name" type="xstring" value="avg_humidity"/>
@@ -183,6 +189,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_7">
 <entry key="column_name" type="xstring" value="avg_wind_speed"/>
@@ -209,6 +216,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_8">
 <entry key="column_name" type="xstring" value="avg_precipitation"/>
@@ -235,6 +243,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_9">
 <entry key="column_name" type="xstring" value="avg_rain"/>
@@ -261,6 +270,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_10">
 <entry key="column_name" type="xstring" value="accidents"/>
@@ -287,6 +297,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_11">
 <entry key="column_name" type="xstring" value="Hora"/>
@@ -313,6 +324,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_12">
 <entry key="column_name" type="xstring" value="Quarter"/>
@@ -339,6 +351,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_13">
 <entry key="column_name" type="xstring" value="Month (number)"/>
@@ -365,6 +378,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_14">
 <entry key="column_name" type="xstring" value="Week"/>
@@ -391,6 +405,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_15">
 <entry key="column_name" type="xstring" value="Day of week (number)"/>
@@ -417,6 +432,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_16">
 <entry key="column_name" type="xstring" value="Parte do Dia"/>
@@ -443,6 +459,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_17">
 <entry key="column_name" type="xstring" value="Roads A"/>
@@ -469,6 +486,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_18">
 <entry key="column_name" type="xstring" value="Roads EM"/>
@@ -495,6 +513,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_19">
 <entry key="column_name" type="xstring" value="Roads CM"/>
@@ -521,6 +540,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_20">
 <entry key="column_name" type="xstring" value="Roads IL"/>
@@ -547,6 +567,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_21">
 <entry key="column_name" type="xstring" value="Roads N"/>
@@ -573,6 +594,7 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_22">
 <entry key="column_name" type="xstring" value="Roads M"/>
@@ -599,5 +621,6 @@
 <config key="column_properties">
 <entry key="preferred.renderer" type="xstring" value="Full Precision"/>
 </config>
+<config key="meta_data"/>
 </config>
 </config>

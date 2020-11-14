@@ -48,6 +48,7 @@
 <entry key="15" type="xboolean" value="false"/>
 <entry key="16" type="xboolean" value="false"/>
 </config>
+<entry key="table_type" type="xint" value="0"/>
 </config>
 <entry key="table_file_name" type="xstring" value="data.zip"/>
 </config>
