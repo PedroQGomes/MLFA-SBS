@@ -25,7 +25,6 @@
 <entry key="skipWriteColHeaderOnAppend" type="xboolean" value="false"/>
 <entry key="commentBegin" type="xstring" value=""/>
 <entry key="commentEnd" type="xstring" value=""/>
-<entry key="commentIndent" type="xstring" value="   "/>
 <entry key="addTime" type="xboolean" value="false"/>
 <entry key="addUser" type="xboolean" value="false"/>
 <entry key="addTablename" type="xboolean" value="false"/>
@@ -36,18 +35,18 @@
 <entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Output file '/home/archdaniel/C:\Users\Luis\Desktop\results.csv' exists and will be overwritten"/>
+<entry key="message" type="xstring" value="Output file 'C:\Users\Luis\Desktop\results.csv' exists and will be overwritten"/>
 </config>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.csvwriter.CSVWriterNodeFactory"/>
 <entry key="node-name" type="xstring" value="CSV Writer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.2.2.v202009241438"/>
-<entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-<entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-<entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-<entry key="node-feature-version" type="xstring" value="0.0.0"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.1.v201908131444"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.0.1.v201908131444"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="CSV Writer"/>
 <entry key="hasContent" type="xboolean" value="false"/>

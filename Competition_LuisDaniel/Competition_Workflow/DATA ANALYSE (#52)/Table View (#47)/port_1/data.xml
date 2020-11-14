@@ -20,7 +20,6 @@
 <entry key="1" type="xboolean" value="true"/>
 <entry key="2" type="xboolean" value="false"/>
 </config>
-<entry key="table_type" type="xint" value="0"/>
 </config>
 <entry key="table_file_name" type="xstring" value="data.zip"/>
 </config>

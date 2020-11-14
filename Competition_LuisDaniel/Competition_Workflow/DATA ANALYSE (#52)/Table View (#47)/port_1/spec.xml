@@ -46,7 +46,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="Parte do Dia"/>
@@ -86,7 +85,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_2">
 <entry key="column_name" type="xstring" value="Selected (JavaScript Table View)"/>
@@ -120,6 +118,5 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 </config>

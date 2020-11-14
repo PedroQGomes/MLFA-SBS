@@ -46,7 +46,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="delay_in_seconds"/>
@@ -71,7 +70,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_2">
 <entry key="column_name" type="xstring" value="affected_roads"/>
@@ -83,7 +81,6 @@
 </config>
 <config key="column_domain"/>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_3">
 <entry key="column_name" type="xstring" value="luminosity"/>
@@ -117,7 +114,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_4">
 <entry key="column_name" type="xstring" value="avg_temperature"/>
@@ -142,7 +138,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_5">
 <entry key="column_name" type="xstring" value="avg_atm_pressure"/>
@@ -167,7 +162,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_6">
 <entry key="column_name" type="xstring" value="avg_humidity"/>
@@ -192,7 +186,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_7">
 <entry key="column_name" type="xstring" value="avg_wind_speed"/>
@@ -217,7 +210,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_8">
 <entry key="column_name" type="xstring" value="avg_precipitation"/>
@@ -242,7 +234,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_9">
 <entry key="column_name" type="xstring" value="avg_rain"/>
@@ -312,7 +303,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_10">
 <entry key="column_name" type="xstring" value="Data"/>
@@ -333,7 +323,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_11">
 <entry key="column_name" type="xstring" value="Hora"/>
@@ -358,7 +347,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_12">
 <entry key="column_name" type="xstring" value="Quarter"/>
@@ -398,7 +386,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_13">
 <entry key="column_name" type="xstring" value="Month (number)"/>
@@ -486,7 +473,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_14">
 <entry key="column_name" type="xstring" value="Week"/>
@@ -511,7 +497,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_15">
 <entry key="column_name" type="xstring" value="Day of week (number)"/>
@@ -569,7 +554,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_16">
 <entry key="column_name" type="xstring" value="Parte do Dia"/>
@@ -609,7 +593,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_17">
 <entry key="column_name" type="xstring" value="Roads A"/>
@@ -637,7 +620,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_18">
 <entry key="column_name" type="xstring" value="Roads EM"/>
@@ -665,7 +647,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_19">
 <entry key="column_name" type="xstring" value="Roads CM"/>
@@ -693,7 +674,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_20">
 <entry key="column_name" type="xstring" value="Roads IL"/>
@@ -721,7 +701,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_21">
 <entry key="column_name" type="xstring" value="Roads N"/>
@@ -749,7 +728,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_22">
 <entry key="column_name" type="xstring" value="Roads M"/>
@@ -777,6 +755,5 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 </config>

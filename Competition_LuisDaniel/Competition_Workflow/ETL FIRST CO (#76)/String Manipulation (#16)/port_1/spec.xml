@@ -22,7 +22,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="magnitude_of_delay"/>
@@ -68,7 +67,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_2">
 <entry key="column_name" type="xstring" value="delay_in_seconds"/>
@@ -93,7 +91,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_3">
 <entry key="column_name" type="xstring" value="affected_roads"/>
@@ -313,7 +310,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_4">
 <entry key="column_name" type="xstring" value="record_date"/>
@@ -533,7 +529,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_5">
 <entry key="column_name" type="xstring" value="luminosity"/>
@@ -567,7 +562,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_6">
 <entry key="column_name" type="xstring" value="avg_temperature"/>
@@ -592,7 +586,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_7">
 <entry key="column_name" type="xstring" value="avg_atm_pressure"/>
@@ -617,7 +610,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_8">
 <entry key="column_name" type="xstring" value="avg_humidity"/>
@@ -642,7 +634,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_9">
 <entry key="column_name" type="xstring" value="avg_wind_speed"/>
@@ -667,7 +658,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_10">
 <entry key="column_name" type="xstring" value="avg_precipitation"/>
@@ -692,7 +682,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_11">
 <entry key="column_name" type="xstring" value="avg_rain"/>
@@ -762,7 +751,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_12">
 <entry key="column_name" type="xstring" value="Roads EM"/>
@@ -784,6 +772,5 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 </config>
