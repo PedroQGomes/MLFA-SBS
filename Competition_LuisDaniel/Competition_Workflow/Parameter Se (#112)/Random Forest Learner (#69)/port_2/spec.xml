@@ -25,7 +25,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="#splits (level 1)"/>
@@ -50,7 +49,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_2">
 <entry key="column_name" type="xstring" value="#splits (level 2)"/>
@@ -75,7 +73,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_3">
 <entry key="column_name" type="xstring" value="#candidates (level 0)"/>
@@ -100,7 +97,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_4">
 <entry key="column_name" type="xstring" value="#candidates (level 1)"/>
@@ -120,12 +116,11 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="2"/>
+<entry key="IntCell" type="xint" value="1"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_5">
 <entry key="column_name" type="xstring" value="#candidates (level 2)"/>
@@ -150,6 +145,5 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 </config>

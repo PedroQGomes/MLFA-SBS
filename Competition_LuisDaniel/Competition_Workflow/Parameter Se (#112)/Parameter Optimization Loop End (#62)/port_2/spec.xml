@@ -25,7 +25,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="NM"/>
@@ -50,7 +49,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_2">
 <entry key="column_name" type="xstring" value="MNS"/>
@@ -75,7 +73,6 @@
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 <config key="column_spec_3">
 <entry key="column_name" type="xstring" value="Objective value"/>
@@ -89,17 +86,16 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="60.56"/>
+<entry key="DoubleCell" type="xdouble" value="60.839999999999996"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="60.56"/>
+<entry key="DoubleCell" type="xdouble" value="60.839999999999996"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
-<config key="meta_data"/>
 </config>
 </config>
