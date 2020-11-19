@@ -128,11 +128,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.0.0.v201906211023"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.2.v202009241054"/>
 <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.0.1.v201908131226"/>
+<entry key="node-feature-version" type="xstring" value="4.2.2.v202009241054"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table View"/>
 <entry key="hasContent" type="xboolean" value="false"/>

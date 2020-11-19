@@ -25,6 +25,7 @@
 </config>
 </config>
 <config key="column_properties"/>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_1">
 <entry key="column_name" type="xstring" value="NM"/>
@@ -49,6 +50,7 @@
 </config>
 </config>
 <config key="column_properties"/>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_2">
 <entry key="column_name" type="xstring" value="MNS"/>
@@ -73,6 +75,7 @@
 </config>
 </config>
 <config key="column_properties"/>
+<config key="meta_data"/>
 </config>
 <config key="column_spec_3">
 <entry key="column_name" type="xstring" value="Objective value"/>
@@ -97,5 +100,6 @@
 </config>
 </config>
 <config key="column_properties"/>
+<config key="meta_data"/>
 </config>
 </config>

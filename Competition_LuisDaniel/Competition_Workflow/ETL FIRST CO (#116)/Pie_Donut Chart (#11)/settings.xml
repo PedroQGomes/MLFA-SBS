@@ -191,31 +191,36 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
 <entry key="node-name" type="xstring" value="Pie/Donut Chart"/>
 <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.dynamic.js.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.0.1.v201908131226"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.1.v202008251343"/>
 <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.0.1.v201908131226"/>
+<entry key="node-feature-version" type="xstring" value="4.2.2.v202009241054"/>
 <config key="factory_settings">
 <entry key="nodeDir" type="xstring" value="org.knime.dynamic.js.base:nodes/:donutChart"/>
 </config>
 <entry key="name" type="xstring" value="Pie/Donut Chart"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="04b124c5-ed7e-4e97-89dc-1cd6979d8524"/>
 </config>
 </config>
