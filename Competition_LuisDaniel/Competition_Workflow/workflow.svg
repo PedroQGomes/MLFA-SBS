@@ -246,7 +246,7 @@
                 <path d="M568 533 L615 533 L615 544 L568 544 L568 533 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath78">
-                <path d="M-1 -1 L2211 -1 L2211 877 L-1 877 L-1 -1 Z"/>
+                <path d="M-1 -1 L1893 -1 L1893 661 L-1 661 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g fill="white" font-family="&apos;Segoe UI&apos;"
@@ -479,14 +479,15 @@ AADhvucPJbgFY3M3FzIAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath35)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABIElEQVR42mP8//8/
-AyWAiYFCwEKK4tPPdA2B1FqovpmmUpdbmUjQDFK7EogVgVgWiNNI9UIDECsj8X8S
-bQDQdlEglY6k/hcQz4aHAVCBHNSGG0DcC/TbXzQzlgGxGBL/FhD3ILtgIxAnAnEL
-iA00kBnJdjcgZYmk+QMQpwAt+Y8cCyJQmhWIXYB4A1CjH5AGGTQFiLmRDDgE1HwS
-PRqvAbE0EDMCMTsQuwLxKiC+D8QqSJqfAXECtoTkC8TngRiWLNmhYilQQ0HgNxD3
-AW1/j2EAUBAUqrZAfAVJDmSIIBL/NsgAnEkZaMg3IGWBZggMfAIFMizgcOYFJENu
-oak7AJQ7RVRmAir8CqTMgPgsNMruAnEsSZkJaMhHIGVCTCoFACyzTMsE9quiAAAA
-AElFTkSuQmCC" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZklEQVR42pWTPUoD
+URDH39skIEGwiHqFGLBIUmgjYqXYhxxBRfAAouiKCDb2WRsvkF5yAYOIul3YxsLG
+QkyxBBVNsv7nMRMGDGEz8OPNzvf7WGuUJE8zs1huwSrIKdcvuAfbtvrdG8UnifFU
+8g6WGKyBF3CZmNw51gv+JnvMcSPxVHIAumARXZZM5evQVuKTocmfum/Y2R/oIh6P
+3QAfCJwH7+IcPhcS0clOfoqjeM5zE7TID0omnZQ4viUFVkCkO08Sjos4z2SZJp3o
+FNIER1KAJLTWumvR+54goShSoMxVtc1JptodjClQ1gXokdTAMU0BGaSYgOL7cogP
+oIhrWUizeY4rcp4rsEV20El5gB2O33RbPAv6P/5u9g16HesBuIHtc1xn+F6hFsA+
+rvPO9333IPS/0OBHEvGhhnxgNR6bOu8h+Vp+powUQNdHdLiCugGWea2DdTAH2mRH
+clty3ARTPqB/8gdOcoYvzbvS5wAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath41)"
                      points=" 195 234 204 238 195 243" stroke="none"/>
@@ -499,10 +500,10 @@ AElFTkSuQmCC" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath43)" preserveAspectRatio="none"
                    height="7" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAaElEQVR42mNkAIKW
-6ZZlTMwM6ezsjBw/f/7/8e8vw8yazONdjCAJSQnGei3tf1wMUHDtKtO35y/+NzKB
-dCBLgACIDxJnAhnFgAWAxJlAdmCTBIkzgSwH2YEsAeKDxBnRXMsJ1PEd5loAQkA1
-1ualk9wAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAeUlEQVR42mNkAILf
+l0TLGJgY0xmYWDkY/v3+wfDv/0xWvdddjCCJf1wC9X/5hbkYoID549tvTN8+NDKB
+dCBLgACYDxRnAhuFDQDFmcB2YANAcSaQ5SA7kMXBfJB48/RvR+tTmP8wf/ugzPz9
+yw/mL29fM/760QtyLQDCQjkGKiN7gQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <text x="310" y="32" clip-path="url(#clipPath44)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">DATA ANALYSES</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1106,14 +1107,15 @@ AADhvucPJbgFY3M3FzIAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath35)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABIElEQVR42mP8//8/
-AyWAiYFCwEKK4tPPdA2B1FqovpmmUpdbmUjQDFK7EogVgVgWiNNI9UIDECsj8X8S
-bQDQdlEglY6k/hcQz4aHAVCBHNSGG0DcC/TbXzQzlgGxGBL/FhD3ILtgIxAnAnEL
-iA00kBnJdjcgZYmk+QMQpwAt+Y8cCyJQmhWIXYB4A1CjH5AGGTQFiLmRDDgE1HwS
-PRqvAbE0EDMCMTsQuwLxKiC+D8QqSJqfAXECtoTkC8TngRiWLNmhYilQQ0HgNxD3
-AW1/j2EAUBAUqrZAfAVJDmSIIBL/NsgAnEkZaMg3IGWBZggMfAIFMizgcOYFJENu
-oak7AJQ7RVRmAir8CqTMgPgsNMruAnEsSZkJaMhHIGVCTCoFACyzTMsE9quiAAAA
-AElFTkSuQmCC" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZklEQVR42pWTPUoD
+URDH39skIEGwiHqFGLBIUmgjYqXYhxxBRfAAouiKCDb2WRsvkF5yAYOIul3YxsLG
+QkyxBBVNsv7nMRMGDGEz8OPNzvf7WGuUJE8zs1huwSrIKdcvuAfbtvrdG8UnifFU
+8g6WGKyBF3CZmNw51gv+JnvMcSPxVHIAumARXZZM5evQVuKTocmfum/Y2R/oIh6P
+3QAfCJwH7+IcPhcS0clOfoqjeM5zE7TID0omnZQ4viUFVkCkO08Sjos4z2SZJp3o
+FNIER1KAJLTWumvR+54goShSoMxVtc1JptodjClQ1gXokdTAMU0BGaSYgOL7cogP
+oIhrWUizeY4rcp4rsEV20El5gB2O33RbPAv6P/5u9g16HesBuIHtc1xn+F6hFsA+
+rvPO9333IPS/0OBHEvGhhnxgNR6bOu8h+Vp+powUQNdHdLiCugGWea2DdTAH2mRH
+clty3ARTPqB/8gdOcoYvzbvS5wAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <polygon clip-path="url(#clipPath41)"
                      points=" 195 234 204 238 195 243" stroke="none"/>
             <polygon clip-path="url(#clipPath42)"
@@ -1123,10 +1125,10 @@ AElFTkSuQmCC" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath43)" preserveAspectRatio="none"
                    height="7" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAaElEQVR42mNkAIKW
-6ZZlTMwM6ezsjBw/f/7/8e8vw8yazONdjCAJSQnGei3tf1wMUHDtKtO35y/+NzKB
-dCBLgACIDxJnAhnFgAWAxJlAdmCTBIkzgSwH2YEsAeKDxBnRXMsJ1PEd5loAQkA1
-1ualk9wAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAeUlEQVR42mNkAILf
+l0TLGJgY0xmYWDkY/v3+wfDv/0xWvdddjCCJf1wC9X/5hbkYoID549tvTN8+NDKB
+dCBLgACYDxRnAhuFDQDFmcB2YANAcSaQ5SA7kMXBfJB48/RvR+tTmP8wf/ugzPz9
+yw/mL29fM/760QtyLQDCQjkGKiN7gQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <text x="310" y="32" clip-path="url(#clipPath44)" stroke="none"
                   font-weight="bold" xml:space="preserve">DATA ANALYSES</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    transform="matrix(1,0,0,1,344,43)" width="32"
@@ -1446,44 +1448,44 @@ p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
            font-family="&apos;Segoe UI&apos;" stroke="rgb(150,150,150)"
            stroke-width="3">
             <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C422 238 637 348 806 348 C808 348 812 348 814 348"
+                  d="M245 358 C247 358 251 358 253 358 C414 358 544 67 705 67 C711 67 720 68 726 68 C728 68 732 68 734 68"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M105 238 C107 238 111 238 113 238 C134 238 165 238 186 238 C188 238 192 238 194 238"
+                  d="M245 238 C247 238 251 238 253 238 C376 238 543 238 666 238 C668 238 672 238 674 238"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M565 58 C567 58 571 58 573 58 C618 58 681 48 726 48 C728 48 732 48 734 48"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M245 238 C247 238 251 238 253 238 C311 238 268 58 326 58 C328 58 332 58 334 58"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M785 58 C787 58 791 58 793 58 C855 58 940 74 1002 74 C1004 74 1008 74 1010 74"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M245 358 C247 358 251 358 253 358 C418 358 641 368 806 368 C808 368 812 368 814 368"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M105 358 C107 358 111 358 113 358 C134 358 165 358 186 358 C188 358 192 358 194 358"
+                  d="M105 238 C107 238 111 238 113 238 C134 238 165 238 186 238 C188 238 192 238 194 238"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C311 238 268 58 326 58 C328 58 332 58 334 58"
+                  d="M245 238 C247 238 251 238 253 238 C374 238 405 538 526 538 C528 538 532 538 534 538"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M105 358 C107 358 111 358 113 358 C134 358 165 358 186 358 C188 358 192 358 194 358"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M725 247 C727 247 731 247 733 247 C772 247 767 358 806 358 C808 358 812 358 814 358"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"
                   stroke="rgb(255,75,75)"/>
             <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C376 238 543 238 666 238 C668 238 672 238 674 238"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M785 58 C787 58 791 58 793 58 C855 58 940 74 1002 74 C1004 74 1008 74 1010 74"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M245 358 C247 358 251 358 253 358 C414 358 544 67 705 67 C711 67 720 68 726 68 C728 68 732 68 734 68"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C346 238 413 58 506 58 C508 58 512 58 514 58"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
                   d="M865 358 C867 358 871 358 873 358 C912 358 967 358 1006 358 C1008 358 1012 358 1014 358"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M565 58 C567 58 571 58 573 58 C618 58 681 48 726 48 C728 48 732 48 734 48"
+                  d="M245 238 C247 238 251 238 253 238 C422 238 637 348 806 348 C808 348 812 348 814 348"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C374 238 405 538 526 538 C528 538 532 538 534 538"
+                  d="M245 238 C247 238 251 238 253 238 C346 238 413 58 506 58 C508 58 512 58 514 58"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
         </g>
     </g>

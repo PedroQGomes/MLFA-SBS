@@ -9,7 +9,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="maxIterations"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="91"/>
+<entry key="value" type="xint" value="105"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>

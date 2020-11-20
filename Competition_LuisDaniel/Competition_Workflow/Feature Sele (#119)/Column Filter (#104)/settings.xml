@@ -23,7 +23,7 @@
 <entry key="10" type="xstring" value="ROAD N"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="13"/>
+<entry key="array-size" type="xint" value="14"/>
 <entry key="0" type="xstring" value="luminosity"/>
 <entry key="1" type="xstring" value="avg_humidity"/>
 <entry key="2" type="xstring" value="avg_precipitation"/>
@@ -37,6 +37,7 @@
 <entry key="10" type="xstring" value="ROAD A"/>
 <entry key="11" type="xstring" value="NRROADS"/>
 <entry key="12" type="xstring" value="roads_affect"/>
+<entry key="13" type="xstring" value="rain"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -57,7 +58,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -70,19 +71,16 @@
 <entry key="node-feature-version" type="xstring" value="4.0.1.v201908131444"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 11"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="862a1401-0f7d-4cfc-9e4f-af66bc92b216"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
