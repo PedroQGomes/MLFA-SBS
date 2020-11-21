@@ -1,9 +1,9 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
-
+\usepackage{graphicx}
 %opening
 \title{Relatório TP1 SBS-MLFA}
-\author{Luis Freitas; Daniel Pereira}
+\author{Luis Freitas - PG38347; Daniel Pereira}
 
 \begin{document}
 
@@ -25,7 +25,7 @@
 \section{Arquiteturas e Ferramentas}
 \newpage
 
-\section{Data Set da Competição}
+\section{DataSet da Competição}
 
 \newpage
 
@@ -38,26 +38,79 @@ O principal objetivo é aprimorar um modelo de Machine Learning Baseado em Arvor
 
 Em relação as features do dataset estas são apresentadas da seguinte forma:
 
-1)city_name - nome da cidade em causa;
-2)record_date - o timestamp associado ao registo;
-3)magnitude_of_delay - magnitude do atraso provocado pelos incidentes que se verificam no record_date correspondente;
-4)delay_in_seconds - atraso, em segundos, provocado pelos incidentes que se verificam no record_date correspondente;
-5)affected_roads - estradas afectadas pelos incidentes que se verificam no record_date correspondente;
-6)luminosity - o nível de luminosidade que se verificava na cidade de Braga;
-7)avg_temperature - valor médio da temperatura para o record_date na cidade de Braga;
-8)avg_atm_pressure - valor médio da pressão atmosférica para o record_date na cidade de Braga;
-9)avg_humidity - valor médio da humidade para o record_date na cidade de Braga;
-10)avg_wind_speed - valor médio da velocidade do vento para o record_date na cidade de Braga;
-11)avg_precipitation - valor médio de precipitação para o record_date na cidade de Braga;
-12)avg_rain - avaliação qualitativa do nível de precipitação para o record_date na cidade de Braga;
-13)accidents - indicação acerca do nível de incidentes rodoviários que se verificam no record_date correspondente na cidade de Braga.
+\begin{enumerate}
+	\item \textbf{city\underline{ }name} - nome da cidade em causa;
+	\item \textbf{record\underline{ }date} - o timestamp associado ao registo
+	\item \textbf{magnitude\underline{ }of\underline{ }delay} - magnitude do atraso provocado pelos incidentes que se verificam no record\underline{ }date correspondente;
+	\item \textbf{delay\underline{ }in\underline{ }seconds}  -  atraso, em segundos, provocado pelos incidentes que se verificam no record\underline{ }date correspondente;
+	\item \textbf{affected\underline{ }roads} - estradas afectadas pelos incidentes que se verificam no record\underline{ }date correspondente;
+	\item \textbf{luminosity} - o nível de luminosidade que se verificava na cidade de Braga;
+	\item \textbf{avg\underline{ }temperature} - valor médio da temperatura para o record\underline{ }date na cidade de Braga;
+	\item \textbf{avg\underline{ }atm\underline{ }pressure} - valor médio da pressão atmosférica para o record\underline{ }date na cidade de Braga;
+	\item \textbf{avg\underline{ }humidity} - valor médio da humidade para o record\underline{ }date na cidade de Braga;
+	\item \textbf{avg\underline{ }wind\underline{ }speed} - valor médio da velocidade do vento para o record\underline{ }date na cidade de Braga;
+	\item \textbf{avg\underline{ }precipitation} - valor médio de precipitação para o record\underline{ }date na cidade de Braga;
+	\item \textbf{avg\underline{ }rain} - avaliação qualitativa do nível de precipitação para o record\underline{ }date na cidade de Braga;
+	\item \textbf{accidents} - indicação acerca do nível de incidentes rodoviários que se verificam no record\underline{ }date correspondente na cidade de Braga;
+\end{enumerate}
 
- 
+\newpage
+
 \subsection{Análise e Transformação dos Dados}
 
+O DataSet utilizado apresenta cinco mil linhas e foi analisado de forma a serem retiradas informações que pudessem ser uteis no desenvolvimento do modelo. 
+ 
+
+(DANIEL ESCREVE AQUI A ANÁLISE DE DADOS QUE JUSTIFIQUE TODAS AS TRANSFORMAÇÕES FEITAS)
+
+\begin{figure} [ h! ]
+  \includegraphics[width=\linewidth]{imagens/DATAPREPARATION.jpg}
+  \caption{Workflow Data Preparation}
+  \label{fig:DATAPREPARATION}
+\end{figure}
+
+As transformações de dados realizadas foram uteis para os resultados do modelo e foram suportadas pela analise de dados efetuada e explicada no capitulo anterior. 
+
+
+Como se pode ver na figura em baixo, pode-se retirar várias informações de algumas features, como por exemplo da record\underline{ }date e da affected\underline{ }roads. Nesta forma inicial estas duas features não contém muita informação pertinente para o modelo. 
+
+\begin{figure} [ h! ]
+  \includegraphics[width=\linewidth]{imagens/DATASET.jpg}
+  \caption{Data Set}
+  \label{fig:DATASET}
+\end{figure}
+
+A partir de técnicas de tratamento de dados foi possivel criar novas features geradas a partir de informação disponivel na feature record\underline{ }date, foi separada a data da hora em duas novas features, foi criada a nova coluna do trimestre e das semans, assim como o dia da semana e a parte do dia. 
+
+\begin{figure} [ h! ]
+  \includegraphics[width=\linewidth]{imagens/DATAFE.jpg}
+  \caption{Novas Features geradas da \textbf{record\underline{ }date}}
+  \label{fig:DATAFE}
+\end{figure}
+\newpage
+A feature \textbf{Parte do Dia} foi concebida a partir da \textbf{Hora} e foram selecionados intervalos de forma a que cada parte do dia ficasse com frequencias identicas. 
+
+\begin{figure} [ h! ]
+  \includegraphics[width=\linewidth]{imagens/partedodiacode.jpg}
+  \caption{Configuração da Feature \textbf{Parte do Dia}}
+  \label{fig:partedodiacode}
+\end{figure}
+
+\begin{figure} [ h! ]
+  \includegraphics[width=\linewidth]{imagens/partedodiafreq.jpg}
+  \caption{Distribuição da Feature \textbf{Parte do Dia}}
+  \label{fig:partedodiafreq}
+\end{figure}
+
+Outra das transformações mais importantes foi sobre a feature {affected\underline{ }roads ...(CONTINUAR)
+
+
+
+
+\newpage
 \subsection{Modelação}
 \subsection{Análise de Resultados}
-\section{Dataset de Competição}
+
 
 
 \newpage

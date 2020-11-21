@@ -9,51 +9,59 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="NL"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="500"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="NM"/>
+<entry key="name" type="xstring" value="NL2"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="20"/>
 </config>
 <config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="MNS"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_4">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="iteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
 <entry key="value" type="xint" value="0"/>
+</config>
+<config key="Loop_Execute_4">
+<entry key="type" type="xstring" value="loopcontext_execute"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="NL"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="800"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="NL2"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="28"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="iteration"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="67"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="parameters" type="xint" value="3"/>
+<entry key="parameters" type="xint" value="2"/>
 <config key="parameter_0">
 <entry key="name" type="xstring" value="NL"/>
-<entry key="from" type="xdouble" value="1.0"/>
-<entry key="to" type="xdouble" value="1.0"/>
-<entry key="step" type="xdouble" value="11.0"/>
+<entry key="from" type="xdouble" value="500.0"/>
+<entry key="to" type="xdouble" value="2000.0"/>
+<entry key="step" type="xdouble" value="100.0"/>
 <entry key="integer" type="xboolean" value="true"/>
 </config>
 <config key="parameter_1">
-<entry key="name" type="xstring" value="NM"/>
-<entry key="from" type="xdouble" value="1.0"/>
-<entry key="to" type="xdouble" value="1.0"/>
-<entry key="step" type="xdouble" value="250.0"/>
-<entry key="integer" type="xboolean" value="true"/>
-</config>
-<config key="parameter_2">
-<entry key="name" type="xstring" value="MNS"/>
-<entry key="from" type="xdouble" value="1.0"/>
-<entry key="to" type="xdouble" value="1.0"/>
-<entry key="step" type="xdouble" value="25.0"/>
+<entry key="name" type="xstring" value="NL2"/>
+<entry key="from" type="xdouble" value="20.0"/>
+<entry key="to" type="xdouble" value="30.0"/>
+<entry key="step" type="xdouble" value="2.0"/>
 <entry key="integer" type="xboolean" value="true"/>
 </config>
 <entry key="method" type="xstring" value="BruteForce"/>
@@ -83,7 +91,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.optimization.internal.node.parameter.loopstart.LoopStartParOptNodeFactory"/>
 <entry key="node-name" type="xstring" value="Parameter Optimization Loop Start"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Optimization extension"/>
@@ -96,12 +104,17 @@
 <entry key="node-feature-version" type="xstring" value="4.0.0.v201906121519"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Parameter Optimization Loop Start"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">

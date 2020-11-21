@@ -99,7 +99,7 @@
                 <path d="M743 385 L938 385 L938 402 L743 402 L743 385 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
-                <path d="M904 101 L1169 101 L1169 118 L904 118 L904 101 Z"/>
+                <path d="M888 105 L1153 105 L1153 122 L888 122 L888 105 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
                 <path d="M636 85 L885 85 L885 102 L636 102 L636 85 Z"/>
@@ -204,13 +204,13 @@
                 <path d="M-2 -2 L25 -2 L25 9 L-2 9 L-2 -2 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath64">
-                <path d="M994 21 L1077 21 L1077 38 L994 38 L994 21 Z"/>
+                <path d="M978 25 L1061 25 L1061 42 L978 42 L978 25 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath65">
-                <path d="M966 36 L1106 36 L1106 53 L966 53 L966 36 Z"/>
+                <path d="M950 40 L1090 40 L1090 57 L950 57 L950 40 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath66">
-                <path d="M966 69 L1028 69 L1028 80 L966 80 L966 69 Z"/>
+                <path d="M950 73 L1012 73 L1012 84 L950 84 L950 73 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath67">
                 <path d="M725 20 L796 20 L796 37 L725 37 L725 20 Z"/>
@@ -246,7 +246,7 @@
                 <path d="M568 533 L615 533 L615 544 L568 544 L568 533 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath78">
-                <path d="M-1 -1 L1893 -1 L1893 661 L-1 661 L-1 -1 Z"/>
+                <path d="M-1 -1 L1782 -1 L1782 608 L-1 608 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g fill="white" font-family="&apos;Segoe UI&apos;"
@@ -376,7 +376,7 @@
                   x="478" y="97" clip-path="url(#clipPath26)" stroke="none">FEATURE SELECTION</text><text xml:space="preserve"
                   x="611" y="277" clip-path="url(#clipPath27)" stroke="none">LOOP PARAMETER SELECTION</text><text xml:space="preserve"
                   x="744" y="397" clip-path="url(#clipPath28)" stroke="none">FINAL MODEL WITH PARAMETERS</text><text xml:space="preserve"
-                  x="905" y="113" clip-path="url(#clipPath29)" stroke="none">SUBMISSÃO SÓ COM A ANALISE DE FEATURES</text><text xml:space="preserve"
+                  x="889" y="117" clip-path="url(#clipPath29)" stroke="none">SUBMISSÃO SÓ COM A ANALISE DE FEATURES</text><text xml:space="preserve"
                   x="637" y="97" clip-path="url(#clipPath30)" stroke="none">FINAL MODEL WITH FEATURES SELECTION</text><text xml:space="preserve"
                   x="164" y="397" clip-path="url(#clipPath31)" stroke="none">DATA PREPARATION</text><text xml:space="preserve"
                   x="498" y="577" clip-path="url(#clipPath32)" stroke="none">FEATURE SELECTION</text><text x="43"
@@ -657,10 +657,10 @@ p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple" fill="rgb(255,75,75)"
                    clip-path="url(#clipPath56)" preserveAspectRatio="none"
                    height="7" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAaElEQVR42mNkAILL
-6tplTMxM6czMzBx///798e/vv5m6N692MYIkuAX46oXEJbgYoODdyxffvn741MgE
-0oEsAQIgPkicCWQUAxYAEmcC2YFNEiTOBLIcZAeyBIgPEmdEcy0nUMd3mGsBY+k5
-p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAeUlEQVR42mNkAILf
+l0TLGJgY0xmYWDkY/v3+wfDv/0xWvdddjCCJf1wC9X/5hbkYoID549tvTN8+NDKB
+dCBLgACYDxRnAhuFDQDFmcB2YANAcSaQ5SA7kMXBfJB48/RvR+tTmP8wf/ugzPz9
+yw/mL29fM/760QtyLQDCQjkGKiN7gQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <text x="806" y="332" clip-path="url(#clipPath58)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Final Model</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -709,14 +709,14 @@ clty3ARTPqB/8gdOcoYvzbvS5wAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
 6tplTMxM6czMzBx///798e/vv5m6N692MYIkuAX46oXEJbgYoODdyxffvn741MgE
 0oEsAQIgPkicCWQUAxYAEmcC2YFNEiTOBLIcZAeyBIgPEmdEcy0nUMd3mGsBY+k5
 p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
-            <text x="995" y="33" clip-path="url(#clipPath64)"
+            <text x="979" y="37" clip-path="url(#clipPath64)"
                   text-rendering="optimizeLegibility" stroke="none"
-                  font-weight="bold" xml:space="preserve">Tratar e criar</text><text x="967"
-                  y="48" clip-path="url(#clipPath65)"
+                  font-weight="bold" xml:space="preserve">Tratar e criar</text><text x="951"
+                  y="52" clip-path="url(#clipPath65)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">ficheiro de submissão</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,1020,59)" width="32"
+                   transform="matrix(1,0,0,1,1004,63)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath34)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -725,7 +725,7 @@ IBQCUb7jUalak1qsjlWQLAEpLyVKbVfG5F9nL8t4H1NJ5gAAAAAAAAAAAAAAAAAA
 AADhvucPJbgFY3M3FzIAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,1028,67)" width="16"
+                   transform="matrix(1,0,0,1,1012,71)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath35)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -740,7 +740,7 @@ rvPO9333IPS/0OBHEvGhhnxgNR6bOu8h+Vp+powUQNdHdLiCugGWea2DdTAH2mRH
 clty3ARTPqB/8gdOcoYvzbvS5wAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath66)"
-                     points=" 1011 70 1020 74 1011 79" stroke="none"/>
+                     points=" 995 74 1004 78 995 83" stroke="none"/>
             <text x="726" y="32" clip-path="url(#clipPath67)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Final Model</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1012,7 +1012,7 @@ p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
                   x="478" y="97" clip-path="url(#clipPath26)" stroke="none">FEATURE SELECTION</text><text xml:space="preserve"
                   x="611" y="277" clip-path="url(#clipPath27)" stroke="none">LOOP PARAMETER SELECTION</text><text xml:space="preserve"
                   x="744" y="397" clip-path="url(#clipPath28)" stroke="none">FINAL MODEL WITH PARAMETERS</text><text xml:space="preserve"
-                  x="905" y="113" clip-path="url(#clipPath29)" stroke="none">SUBMISSÃO SÓ COM A ANALISE DE FEATURES</text><text xml:space="preserve"
+                  x="889" y="117" clip-path="url(#clipPath29)" stroke="none">SUBMISSÃO SÓ COM A ANALISE DE FEATURES</text><text xml:space="preserve"
                   x="637" y="97" clip-path="url(#clipPath30)" stroke="none">FINAL MODEL WITH FEATURES SELECTION</text><text xml:space="preserve"
                   x="164" y="397" clip-path="url(#clipPath31)" stroke="none">DATA PREPARATION</text><text xml:space="preserve"
                   x="498" y="577" clip-path="url(#clipPath32)" stroke="none">FEATURE SELECTION</text><text x="43"
@@ -1258,10 +1258,10 @@ p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
                    width="7" xlink:show="embed" xlink:type="simple"
                    fill="rgb(255,75,75)" clip-path="url(#clipPath56)"
                    preserveAspectRatio="none" height="7" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAaElEQVR42mNkAILL
-6tplTMxM6czMzBx///798e/vv5m6N692MYIkuAX46oXEJbgYoODdyxffvn741MgE
-0oEsAQIgPkicCWQUAxYAEmcC2YFNEiTOBLIcZAeyBIgPEmdEcy0nUMd3mGsBY+k5
-p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAeUlEQVR42mNkAILf
+l0TLGJgY0xmYWDkY/v3+wfDv/0xWvdddjCCJf1wC9X/5hbkYoID549tvTN8+NDKB
+dCBLgACYDxRnAhuFDQDFmcB2YANAcSaQ5SA7kMXBfJB48/RvR+tTmP8wf/ugzPz9
+yw/mL29fM/760QtyLQDCQjkGKiN7gQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <text x="806" y="332" clip-path="url(#clipPath58)" stroke="none"
                   font-weight="bold" xml:space="preserve">Final Model</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    transform="matrix(1,0,0,1,824,343)" width="32"
@@ -1302,11 +1302,11 @@ clty3ARTPqB/8gdOcoYvzbvS5wAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
 6tplTMxM6czMzBx///798e/vv5m6N692MYIkuAX46oXEJbgYoODdyxffvn741MgE
 0oEsAQIgPkicCWQUAxYAEmcC2YFNEiTOBLIcZAeyBIgPEmdEcy0nUMd3mGsBY+k5
 p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
-            <text x="995" y="33" clip-path="url(#clipPath64)" stroke="none"
-                  font-weight="bold" xml:space="preserve">Tratar e criar</text><text x="967"
-                  y="48" clip-path="url(#clipPath65)" stroke="none"
+            <text x="979" y="37" clip-path="url(#clipPath64)" stroke="none"
+                  font-weight="bold" xml:space="preserve">Tratar e criar</text><text x="951"
+                  y="52" clip-path="url(#clipPath65)" stroke="none"
                   font-weight="bold" xml:space="preserve">ficheiro de submissão</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   transform="matrix(1,0,0,1,1020,59)" width="32"
+                   transform="matrix(1,0,0,1,1004,63)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath34)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -1314,7 +1314,7 @@ p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
 IBQCUb7jUalak1qsjlWQLAEpLyVKbVfG5F9nL8t4H1NJ5gAAAAAAAAAAAAAAAAAA
 AADhvucPJbgFY3M3FzIAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   transform="matrix(1,0,0,1,1028,67)" width="16"
+                   transform="matrix(1,0,0,1,1012,71)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath35)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -1328,7 +1328,7 @@ oIhrWUizeY4rcp4rsEV20El5gB2O33RbPAv6P/5u9g16HesBuIHtc1xn+F6hFsA+
 rvPO9333IPS/0OBHEvGhhnxgNR6bOu8h+Vp+powUQNdHdLiCugGWea2DdTAH2mRH
 clty3ARTPqB/8gdOcoYvzbvS5wAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
             <polygon clip-path="url(#clipPath66)"
-                     points=" 1011 70 1020 74 1011 79" stroke="none"/>
+                     points=" 995 74 1004 78 995 83" stroke="none"/>
             <text x="726" y="32" clip-path="url(#clipPath67)" stroke="none"
                   font-weight="bold" xml:space="preserve">Final Model</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    transform="matrix(1,0,0,1,744,43)" width="32"
@@ -1446,44 +1446,44 @@ p9wPn10AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
            font-family="&apos;Segoe UI&apos;" stroke="rgb(150,150,150)"
            stroke-width="3">
             <path fill="none"
-                  d="M245 358 C247 358 251 358 253 358 C414 358 544 67 705 67 C711 67 720 68 726 68 C728 68 732 68 734 68"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C376 238 543 238 666 238 C668 238 672 238 674 238"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
                   d="M565 58 C567 58 571 58 573 58 C618 58 681 48 726 48 C728 48 732 48 734 48"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C311 238 268 58 326 58 C328 58 332 58 334 58"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M785 58 C787 58 791 58 793 58 C855 58 940 74 1002 74 C1004 74 1008 74 1010 74"
-                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M245 358 C247 358 251 358 253 358 C418 358 641 368 806 368 C808 368 812 368 814 368"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M105 238 C107 238 111 238 113 238 C134 238 165 238 186 238 C188 238 192 238 194 238"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
+                  d="M245 238 C247 238 251 238 253 238 C376 238 543 238 666 238 C668 238 672 238 674 238"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M245 238 C247 238 251 238 253 238 C346 238 413 58 506 58 C508 58 512 58 514 58"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
                   d="M245 238 C247 238 251 238 253 238 C374 238 405 538 526 538 C528 538 532 538 534 538"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
+                  d="M245 358 C247 358 251 358 253 358 C414 358 544 67 705 67 C711 67 720 68 726 68 C728 68 732 68 734 68"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
                   d="M105 358 C107 358 111 358 113 358 C134 358 165 358 186 358 C188 358 192 358 194 358"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M785 58 C787 58 791 58 793 58 C851 58 928 78 986 78 C988 78 992 78 994 78"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M725 247 C727 247 731 247 733 247 C772 247 767 358 806 358 C808 358 812 358 814 358"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"
                   stroke="rgb(255,75,75)"/>
             <path fill="none"
-                  d="M865 358 C867 358 871 358 873 358 C912 358 967 358 1006 358 C1008 358 1012 358 1014 358"
+                  d="M245 238 C247 238 251 238 253 238 C311 238 268 58 326 58 C328 58 332 58 334 58"
+                  clip-path="url(#clipPath78)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M245 358 C247 358 251 358 253 358 C418 358 641 368 806 368 C808 368 812 368 814 368"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M245 238 C247 238 251 238 253 238 C422 238 637 348 806 348 C808 348 812 348 814 348"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M245 238 C247 238 251 238 253 238 C346 238 413 58 506 58 C508 58 512 58 514 58"
+                  d="M865 358 C867 358 871 358 873 358 C912 358 967 358 1006 358 C1008 358 1012 358 1014 358"
                   clip-path="url(#clipPath78)" fill-rule="evenodd"/>
         </g>
     </g>

@@ -46,7 +46,7 @@
 <entry key="node-feature-version" type="xstring" value="4.0.1.v201908131444"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Feature Selection Loop End"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">

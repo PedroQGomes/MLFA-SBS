@@ -12,19 +12,19 @@
 <config key="data-column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="9"/>
 <entry key="0" type="xstring" value="delay_in_seconds"/>
-<entry key="1" type="xstring" value="avg_humidity"/>
+<entry key="1" type="xstring" value="avg_temperature"/>
+<entry key="2" type="xstring" value="avg_atm_pressure"/>
+<entry key="3" type="xstring" value="avg_humidity"/>
+<entry key="4" type="xstring" value="avg_wind_speed"/>
+<entry key="5" type="xstring" value="avg_precipitation"/>
+<entry key="6" type="xstring" value="Hora"/>
+<entry key="7" type="xstring" value="Week"/>
+<entry key="8" type="xstring" value="NRROADS"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xstring" value="avg_temperature"/>
-<entry key="1" type="xstring" value="avg_atm_pressure"/>
-<entry key="2" type="xstring" value="avg_wind_speed"/>
-<entry key="3" type="xstring" value="avg_precipitation"/>
-<entry key="4" type="xstring" value="Hora"/>
-<entry key="5" type="xstring" value="Week"/>
-<entry key="6" type="xstring" value="NRROADS"/>
+<entry key="array-size" type="xint" value="0"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -68,7 +68,7 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.base.data.normalize.NormalizerPortObject"/>
-<entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 2 column(s)"/>
+<entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 9 column(s)"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -76,6 +76,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2a1530f3-97f1-4d60-ad07-eb35a2f12fe5"/>
+<entry key="file_store_id" type="xstring" value="890fdd33-bbe6-4b3c-910d-0a974afe7dca"/>
 </config>
 </config>

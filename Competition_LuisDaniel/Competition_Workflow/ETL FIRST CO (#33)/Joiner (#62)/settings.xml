@@ -53,9 +53,16 @@
 <entry key="30" type="xstring" value="md_undefined"/>
 </config>
 <config key="rightIncludeCols">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="9"/>
 <entry key="0" type="xstring" value="delay_in_seconds"/>
-<entry key="1" type="xstring" value="avg_humidity"/>
+<entry key="1" type="xstring" value="avg_temperature"/>
+<entry key="2" type="xstring" value="avg_atm_pressure"/>
+<entry key="3" type="xstring" value="avg_humidity"/>
+<entry key="4" type="xstring" value="avg_wind_speed"/>
+<entry key="5" type="xstring" value="avg_precipitation"/>
+<entry key="6" type="xstring" value="Hora"/>
+<entry key="7" type="xstring" value="Week"/>
+<entry key="8" type="xstring" value="NRROADS"/>
 </config>
 <entry key="leftIncludeAll" type="xboolean" value="true"/>
 <entry key="rightIncludeAll" type="xboolean" value="false"/>
@@ -92,12 +99,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 33"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 40"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e3aacd04-6c2d-4ac5-8cc4-18bf94eba230"/>
+<entry key="file_store_id" type="xstring" value="36a5bd90-f0cb-4b20-81d7-8a89b4b50db0"/>
 </config>
 </config>

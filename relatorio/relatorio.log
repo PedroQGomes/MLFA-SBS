@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.28)  10 NOV 2020 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.28)  21 NOV 2020 19:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -28,6 +28,30 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
 (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count176
@@ -50,6 +74,29 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+
+(c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count177
+\scratchdimen=\dimen137
+\scratchbox=\box46
+\nofMPsegments=\count178
+\nofMParguments=\count179
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count180
+\MPscratchDim=\dimen138
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
+\everyMPtoPDFconversion=\toks19
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -58,27 +105,79 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
  [1
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
- [6] (./relatorio.aux) ) 
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 42.
+
+Overfull \hbox (3.26659pt too wide) in paragraph at lines 49--50
+[]\OT1/cmr/bx/n/10 avg$[]$atm$[]$pressure \OT1/cmr/m/n/10 - valor m^^Sedio da p
+ress~ao at-mosf^^Serica para o record$[]$date
+ []
+
+
+Overfull \hbox (0.38918pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/bx/n/10 avg$[]$rain \OT1/cmr/m/n/10 - avalia^^Xc~ao qual-i-ta-tiva d
+o n^^S^^Pvel de pre-cipita^^Xc~ao para o record$[]$date
+ []
+
+[5]
+<imagens/DATAPREPARATION.jpg, id=24, 944.328pt x 364.36125pt>
+File: imagens/DATAPREPARATION.jpg Graphic file (type jpg)
+<use imagens/DATAPREPARATION.jpg>
+Package pdftex.def Info: imagens/DATAPREPARATION.jpg  used on input line 67.
+(pdftex.def)             Requested size: 345.0pt x 133.11583pt.
+<imagens/DATASET.jpg, id=25, 826.287pt x 496.85625pt>
+File: imagens/DATASET.jpg Graphic file (type jpg)
+<use imagens/DATASET.jpg>
+Package pdftex.def Info: imagens/DATASET.jpg  used on input line 78.
+(pdftex.def)             Requested size: 345.0pt x 207.45001pt.
+ [6 <./imagens/DATAPREPARATION.jpg> <./imagens/DATASET.jpg>]
+<imagens/DATAFE.jpg, id=29, 599.841pt x 461.92575pt>
+File: imagens/DATAFE.jpg Graphic file (type jpg)
+<use imagens/DATAFE.jpg>
+Package pdftex.def Info: imagens/DATAFE.jpg  used on input line 86.
+(pdftex.def)             Requested size: 345.0pt x 265.68277pt.
+ [7 <./imagens/DATAFE.jpg>]
+<imagens/partedodiacode.jpg, id=34, 275.8305pt x 258.9675pt>
+File: imagens/partedodiacode.jpg Graphic file (type jpg)
+<use imagens/partedodiacode.jpg>
+Package pdftex.def Info: imagens/partedodiacode.jpg  used on input line 94.
+(pdftex.def)             Requested size: 345.0pt x 323.92587pt.
+<imagens/partedodiafreq.jpg, id=35, 582.978pt x 444.4605pt>
+File: imagens/partedodiafreq.jpg Graphic file (type jpg)
+<use imagens/partedodiafreq.jpg>
+Package pdftex.def Info: imagens/partedodiafreq.jpg  used on input line 100.
+(pdftex.def)             Requested size: 345.0pt x 263.02968pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./imagens/partedodiacode.jpg>] [9 <./imagens/partedodiafreq.jpg>] [10]
+(./relatorio.aux) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 105 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 437 strings out of 480875
- 7427 string characters out of 5911456
- 245509 words of memory out of 5000000
- 16131 multiletter control sequences out of 15000+600000
- 539983 words of font info for 45 fonts, out of 8000000 for 9000
+ 1243 strings out of 480875
+ 18675 string characters out of 5911456
+ 258931 words of memory out of 5000000
+ 16897 multiletter control sequences out of 15000+600000
+ 539950 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,25p,433b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm
--super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/
-texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/20
-20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/
-type1/public/cm-super/sfbx1440.pfb>
-Output written on relatorio.pdf (6 pages, 73370 bytes).
+ 36i,6n,33p,433b,209s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
+:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/
+2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on relatorio.pdf (10 pages, 1157901 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
