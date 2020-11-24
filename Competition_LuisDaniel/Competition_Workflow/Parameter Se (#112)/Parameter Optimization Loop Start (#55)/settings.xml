@@ -9,59 +9,40 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="NL"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="500"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="NL2"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="20"/>
-</config>
-<config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="iteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
 <entry key="value" type="xint" value="0"/>
 </config>
-<config key="Loop_Execute_4">
+<config key="Loop_Execute_3">
 <entry key="type" type="xstring" value="loopcontext_execute"/>
 </config>
-<config key="Variable_5">
+<config key="Variable_4">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="NL"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="800"/>
+<entry key="value" type="xint" value="500"/>
 </config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="NL2"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="28"/>
-</config>
-<config key="Variable_7">
+<config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="iteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="67"/>
+<entry key="value" type="xint" value="499"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="parameters" type="xint" value="2"/>
+<entry key="parameters" type="xint" value="1"/>
 <config key="parameter_0">
 <entry key="name" type="xstring" value="NL"/>
-<entry key="from" type="xdouble" value="500.0"/>
-<entry key="to" type="xdouble" value="2000.0"/>
-<entry key="step" type="xdouble" value="100.0"/>
-<entry key="integer" type="xboolean" value="true"/>
-</config>
-<config key="parameter_1">
-<entry key="name" type="xstring" value="NL2"/>
-<entry key="from" type="xdouble" value="20.0"/>
-<entry key="to" type="xdouble" value="30.0"/>
-<entry key="step" type="xdouble" value="2.0"/>
+<entry key="from" type="xdouble" value="1.0"/>
+<entry key="to" type="xdouble" value="500.0"/>
+<entry key="step" type="xdouble" value="1.0"/>
 <entry key="integer" type="xboolean" value="true"/>
 </config>
 <entry key="method" type="xstring" value="BruteForce"/>

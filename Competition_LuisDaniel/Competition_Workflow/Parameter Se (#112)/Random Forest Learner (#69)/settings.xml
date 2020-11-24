@@ -8,7 +8,7 @@
 <config key="model">
 <entry key="targetColumn" type="xstring" value="accidents"/>
 <entry key="seed" type="xstring" value="1604952502038"/>
-<entry key="maxLevels" type="xint" value="20"/>
+<entry key="maxLevels" type="xint" value="23"/>
 <entry key="minNodeSize" type="xint" value="-1"/>
 <entry key="minChildSize" type="xint" value="-1"/>
 <entry key="dataFraction" type="xdouble" value="1.0"/>
@@ -19,7 +19,7 @@
 <entry key="columnAbsolutePerTree" type="xint" value="10"/>
 <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
 <entry key="nrModels" type="xint" value="100"/>
-<entry key="splitCriterion" type="xstring" value="InformationGainRatio"/>
+<entry key="splitCriterion" type="xstring" value="InformationGain"/>
 <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
 <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
 <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
@@ -27,19 +27,23 @@
 <config key="columnFilterConfig">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="12"/>
+<entry key="array-size" type="xint" value="16"/>
 <entry key="0" type="xstring" value="magnitude_of_delay"/>
 <entry key="1" type="xstring" value="delay_in_seconds"/>
-<entry key="2" type="xstring" value="avg_temperature"/>
-<entry key="3" type="xstring" value="avg_atm_pressure"/>
-<entry key="4" type="xstring" value="avg_wind_speed"/>
-<entry key="5" type="xstring" value="Hora"/>
-<entry key="6" type="xstring" value="Quarter"/>
-<entry key="7" type="xstring" value="Week"/>
-<entry key="8" type="xstring" value="Day of week (number)"/>
+<entry key="2" type="xstring" value="avg_atm_pressure"/>
+<entry key="3" type="xstring" value="avg_wind_speed"/>
+<entry key="4" type="xstring" value="Hora"/>
+<entry key="5" type="xstring" value="Month (number)"/>
+<entry key="6" type="xstring" value="Week"/>
+<entry key="7" type="xstring" value="Day of week (number)"/>
+<entry key="8" type="xstring" value="ROAD CM"/>
 <entry key="9" type="xstring" value="ROAD A"/>
 <entry key="10" type="xstring" value="NRROADS"/>
-<entry key="11" type="xstring" value="avg_humidity (#1)"/>
+<entry key="11" type="xstring" value="rain"/>
+<entry key="12" type="xstring" value="avg_temperature (#1)"/>
+<entry key="13" type="xstring" value="avg_humidity (#1)"/>
+<entry key="14" type="xstring" value="avg_wind_speed (#1)"/>
+<entry key="15" type="xstring" value="Week (#1)"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -67,10 +71,6 @@
 <entry key="rowSamplingMode" type="xstring" value="Random"/>
 </config>
 <config key="variables">
-<config key="maxLevels">
-<entry key="used_variable" type="xstring" value="NL2"/>
-<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
-</config>
 <config key="nrModels">
 <entry key="used_variable" type="xstring" value="NL"/>
 <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
@@ -95,7 +95,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2"/>
 <entry key="node-name" type="xstring" value="Random Forest Learner"/>
 <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
@@ -113,15 +113,36 @@
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 4500, Cols: 25"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 16, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 <config key="port_3">
 <entry key="index" type="xint" value="3"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObject"/>
+<entry key="port_object_summary" type="xstring" value="500 classifiers on 16 attributes"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_3"/>
+</config>
+</config>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="referenced_output"/>
+<entry key="outport" type="xint" value="3"/>
+</config>
 </config>
 </config>
 <config key="filestores">
