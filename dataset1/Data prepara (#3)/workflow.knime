@@ -37,7 +37,7 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="204"/>
+<entry key="0" type="xint" value="224"/>
 <entry key="1" type="xint" value="257"/>
 <entry key="2" type="xint" value="81"/>
 <entry key="3" type="xint" value="78"/>
@@ -101,7 +101,7 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="524"/>
+<entry key="0" type="xint" value="564"/>
 <entry key="1" type="xint" value="277"/>
 <entry key="2" type="xint" value="82"/>
 <entry key="3" type="xint" value="78"/>
@@ -178,7 +178,16 @@
 </config>
 </config>
 <config key="meta_in_ports">
-<entry key="ui_classname" type="xstring" isnull="true" value=""/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="80"/>
+<entry key="1" type="xint" value="20"/>
+<entry key="2" type="xint" value="50"/>
+<entry key="3" type="xint" value="643"/>
+</config>
+</config>
 <config key="port_enum">
 <config key="inport_0">
 <entry key="index" type="xint" value="0"/>
@@ -190,7 +199,16 @@
 </config>
 </config>
 <config key="meta_out_ports">
-<entry key="ui_classname" type="xstring" isnull="true" value=""/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="880"/>
+<entry key="1" type="xint" value="0"/>
+<entry key="2" type="xint" value="50"/>
+<entry key="3" type="xint" value="643"/>
+</config>
+</config>
 <config key="port_enum">
 <config key="outport_0">
 <entry key="index" type="xint" value="0"/>
