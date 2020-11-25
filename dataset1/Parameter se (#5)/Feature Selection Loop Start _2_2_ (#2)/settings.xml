@@ -9,7 +9,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="maxIterations"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="220"/>
+<entry key="value" type="xint" value="50"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
@@ -30,13 +30,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="maxIterations"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="220"/>
+<entry key="value" type="xint" value="50"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="currentIteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="61"/>
+<entry key="value" type="xint" value="45"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
@@ -49,7 +49,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="selectionStrategy" type="xbyte" value="2"/>
+<entry key="selectionStrategy" type="xbyte" value="3"/>
 <entry key="ga_crossoverStrategy" type="xbyte" value="0"/>
 <entry key="ga_selectionStrategy" type="xbyte" value="0"/>
 <config key="constantColumnsFilterConfig">
@@ -145,19 +145,19 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 519, Cols: 12"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 519, Cols: 14"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 519, Cols: 12"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 519, Cols: 14"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="24a64e52-9486-4121-8844-a5c3d348201a"/>
+<entry key="file_store_id" type="xstring" value="325e3f04-78e0-498a-ab04-909e99d797e2"/>
 </config>
 </config>

@@ -24,7 +24,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Mean(Error in %)"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="13.495475113122172"/>
+<entry key="value" type="xdouble" value="14.453242835595773"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
