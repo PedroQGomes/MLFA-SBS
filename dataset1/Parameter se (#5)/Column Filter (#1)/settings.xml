@@ -9,41 +9,41 @@
 <config key="column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="31"/>
+<entry key="array-size" type="xint" value="17"/>
 <entry key="0" type="xstring" value="school"/>
 <entry key="1" type="xstring" value="sex"/>
-<entry key="2" type="xstring" value="age"/>
-<entry key="3" type="xstring" value="address"/>
-<entry key="4" type="xstring" value="famsize"/>
-<entry key="5" type="xstring" value="Pstatus"/>
-<entry key="6" type="xstring" value="Medu"/>
-<entry key="7" type="xstring" value="Fedu"/>
-<entry key="8" type="xstring" value="Mjob"/>
-<entry key="9" type="xstring" value="Fjob"/>
-<entry key="10" type="xstring" value="reason"/>
-<entry key="11" type="xstring" value="guardian"/>
-<entry key="12" type="xstring" value="traveltime"/>
-<entry key="13" type="xstring" value="studytime"/>
-<entry key="14" type="xstring" value="failures"/>
-<entry key="15" type="xstring" value="schoolsup"/>
-<entry key="16" type="xstring" value="famsup"/>
-<entry key="17" type="xstring" value="paid"/>
-<entry key="18" type="xstring" value="activities"/>
-<entry key="19" type="xstring" value="nursery"/>
-<entry key="20" type="xstring" value="higher"/>
-<entry key="21" type="xstring" value="internet"/>
-<entry key="22" type="xstring" value="romantic"/>
-<entry key="23" type="xstring" value="famrel"/>
-<entry key="24" type="xstring" value="freetime"/>
-<entry key="25" type="xstring" value="goout"/>
-<entry key="26" type="xstring" value="Dalc"/>
-<entry key="27" type="xstring" value="Walc"/>
-<entry key="28" type="xstring" value="health"/>
-<entry key="29" type="xstring" value="absences"/>
-<entry key="30" type="xstring" value="G3"/>
+<entry key="2" type="xstring" value="address"/>
+<entry key="3" type="xstring" value="famsize"/>
+<entry key="4" type="xstring" value="Pstatus"/>
+<entry key="5" type="xstring" value="reason"/>
+<entry key="6" type="xstring" value="traveltime"/>
+<entry key="7" type="xstring" value="failures"/>
+<entry key="8" type="xstring" value="schoolsup"/>
+<entry key="9" type="xstring" value="paid"/>
+<entry key="10" type="xstring" value="nursery"/>
+<entry key="11" type="xstring" value="higher"/>
+<entry key="12" type="xstring" value="romantic"/>
+<entry key="13" type="xstring" value="famrel"/>
+<entry key="14" type="xstring" value="freetime"/>
+<entry key="15" type="xstring" value="Dalc"/>
+<entry key="16" type="xstring" value="G3"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xstring" value="age"/>
+<entry key="1" type="xstring" value="Medu"/>
+<entry key="2" type="xstring" value="Fedu"/>
+<entry key="3" type="xstring" value="Mjob"/>
+<entry key="4" type="xstring" value="Fjob"/>
+<entry key="5" type="xstring" value="guardian"/>
+<entry key="6" type="xstring" value="studytime"/>
+<entry key="7" type="xstring" value="famsup"/>
+<entry key="8" type="xstring" value="activities"/>
+<entry key="9" type="xstring" value="internet"/>
+<entry key="10" type="xstring" value="goout"/>
+<entry key="11" type="xstring" value="Walc"/>
+<entry key="12" type="xstring" value="health"/>
+<entry key="13" type="xstring" value="absences"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -52,7 +52,14 @@
 <entry key="caseSensitive" type="xboolean" value="true"/>
 </config>
 <config key="datatype">
-<config key="typelist"/>
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
 </config>
 </config>
 </config>
@@ -77,12 +84,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 519, Cols: 31"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 519, Cols: 17"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2c2db9eb-f195-4ea2-96d7-528e7cc40054"/>
+<entry key="file_store_id" type="xstring" value="e4ded426-627b-454c-87ac-567c06c03818"/>
 </config>
 </config>

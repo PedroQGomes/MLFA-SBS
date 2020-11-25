@@ -12,26 +12,12 @@
 <entry key="left_open" type="xboolean" value="true"/>
 <entry key="left_value" type="xdouble" value="-Infinity"/>
 <entry key="right_open" type="xboolean" value="true"/>
-<entry key="right_value" type="xdouble" value="5.0"/>
+<entry key="right_value" type="xdouble" value="10.0"/>
 </config>
 <config key="Bin2_1">
 <entry key="bin_name" type="xstring" value="Bin2"/>
 <entry key="left_open" type="xboolean" value="false"/>
-<entry key="left_value" type="xdouble" value="5.0"/>
-<entry key="right_open" type="xboolean" value="true"/>
-<entry key="right_value" type="xdouble" value="10.0"/>
-</config>
-<config key="Bin3_2">
-<entry key="bin_name" type="xstring" value="Bin3"/>
-<entry key="left_open" type="xboolean" value="false"/>
 <entry key="left_value" type="xdouble" value="10.0"/>
-<entry key="right_open" type="xboolean" value="true"/>
-<entry key="right_value" type="xdouble" value="15.0"/>
-</config>
-<config key="Bin4_3">
-<entry key="bin_name" type="xstring" value="Bin4"/>
-<entry key="left_open" type="xboolean" value="false"/>
-<entry key="left_value" type="xdouble" value="15.0"/>
 <entry key="right_open" type="xboolean" value="true"/>
 <entry key="right_value" type="xdouble" value="Infinity"/>
 </config>
@@ -83,6 +69,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e666a2e8-71c5-44d9-9e4a-2ae2676c338e"/>
+<entry key="file_store_id" type="xstring" value="8fd96354-4d21-487c-8c8b-aaebce3dd51c"/>
 </config>
 </config>

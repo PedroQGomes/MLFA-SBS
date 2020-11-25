@@ -7,37 +7,25 @@
 </config>
 <config key="model">
 <config key="rowIndices">
-<entry key="array-size" type="xint" value="8"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="0"/>
 <entry key="1" type="xint" value="0"/>
 <entry key="2" type="xint" value="1"/>
 <entry key="3" type="xint" value="1"/>
-<entry key="4" type="xint" value="2"/>
-<entry key="5" type="xint" value="2"/>
-<entry key="6" type="xint" value="3"/>
-<entry key="7" type="xint" value="3"/>
 </config>
 <config key="columnIndices">
-<entry key="array-size" type="xint" value="8"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="0"/>
 <entry key="1" type="xint" value="1"/>
 <entry key="2" type="xint" value="0"/>
 <entry key="3" type="xint" value="1"/>
-<entry key="4" type="xint" value="0"/>
-<entry key="5" type="xint" value="1"/>
-<entry key="6" type="xint" value="0"/>
-<entry key="7" type="xint" value="1"/>
 </config>
 <config key="values">
-<entry key="array-size" type="xint" value="8"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="Bin1"/>
-<entry key="1" type="xstring" value="Muito Mau"/>
+<entry key="1" type="xstring" value="Mau"/>
 <entry key="2" type="xstring" value="Bin2"/>
-<entry key="3" type="xstring" value="Mau"/>
-<entry key="4" type="xstring" value="Bin3"/>
-<entry key="5" type="xstring" value="Bom"/>
-<entry key="6" type="xstring" value="Bin4"/>
-<entry key="7" type="xstring" value="Muito Bom"/>
+<entry key="3" type="xstring" value="Bom"/>
 </config>
 <entry key="rowIdPrefix" type="xstring" value="Row"/>
 <entry key="rowIdSuffix" type="xstring" value=""/>
@@ -105,12 +93,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b78744ef-9c7d-479a-b509-bd52c720e6ea"/>
+<entry key="file_store_id" type="xstring" value="81340b69-f9db-4346-ba0f-09a58b103722"/>
 </config>
 </config>

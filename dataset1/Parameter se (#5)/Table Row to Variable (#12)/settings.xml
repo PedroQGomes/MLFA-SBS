@@ -30,25 +30,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="RowID"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Row27"/>
+<entry key="value" type="xstring" value="Row20"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Selected features"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="school,sex,Fedu,Mjob,Fjob,reason,studytime,failures,schoolsup,paid,activities,nursery,higher,internet,famrel,goout,Dalc,Walc,health"/>
+<entry key="value" type="xstring" value="school,sex,address,famsize,reason,traveltime,schoolsup,nursery,higher,romantic,famrel,freetime,Dalc"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Mean(Error in %)"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="32.375565610859724"/>
+<entry key="value" type="xdouble" value="12.52262443438914"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Nr. of features"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="19"/>
+<entry key="value" type="xint" value="13"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -115,6 +115,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8051c465-3b3f-4367-8bf3-ecbe7350371f"/>
+<entry key="file_store_id" type="xstring" value="0cd960b3-b2e3-4307-b70c-d21e8526ecd2"/>
 </config>
 </config>
