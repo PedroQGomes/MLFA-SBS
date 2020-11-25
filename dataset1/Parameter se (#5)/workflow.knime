@@ -230,7 +230,7 @@
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="124"/>
-<entry key="1" type="xint" value="117"/>
+<entry key="1" type="xint" value="137"/>
 <entry key="2" type="xint" value="81"/>
 <entry key="3" type="xint" value="78"/>
 </config>
