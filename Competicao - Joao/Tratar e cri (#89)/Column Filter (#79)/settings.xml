@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Accidents"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="41"/>
+<entry key="0" type="xstring" value="magnitude_of_delay"/>
+<entry key="1" type="xstring" value="delay_in_seconds"/>
+<entry key="2" type="xstring" value="luminosity"/>
+<entry key="3" type="xstring" value="avg_temperature"/>
+<entry key="4" type="xstring" value="avg_atm_pressure"/>
+<entry key="5" type="xstring" value="avg_humidity"/>
+<entry key="6" type="xstring" value="avg_wind_speed"/>
+<entry key="7" type="xstring" value="avg_precipitation"/>
+<entry key="8" type="xstring" value="avg_rain"/>
+<entry key="9" type="xstring" value="Hora"/>
+<entry key="10" type="xstring" value="Quarter"/>
+<entry key="11" type="xstring" value="Month (number)"/>
+<entry key="12" type="xstring" value="Week"/>
+<entry key="13" type="xstring" value="Day of week (number)"/>
+<entry key="14" type="xstring" value="Parte do Dia"/>
+<entry key="15" type="xstring" value="ROAD CM"/>
+<entry key="16" type="xstring" value="ROAD M"/>
+<entry key="17" type="xstring" value="ROAD EM"/>
+<entry key="18" type="xstring" value="ROAD IP"/>
+<entry key="19" type="xstring" value="ROAD N"/>
+<entry key="20" type="xstring" value="ROAD A"/>
+<entry key="21" type="xstring" value="NRROADS"/>
+<entry key="22" type="xstring" value="roads_affect"/>
+<entry key="23" type="xstring" value="repeat_road"/>
+<entry key="24" type="xstring" value="rain"/>
+<entry key="25" type="xstring" value="md_undefined"/>
+<entry key="26" type="xstring" value="delay_in_seconds (#1)"/>
+<entry key="27" type="xstring" value="avg_temperature (#1)"/>
+<entry key="28" type="xstring" value="avg_atm_pressure (#1)"/>
+<entry key="29" type="xstring" value="avg_humidity (#1)"/>
+<entry key="30" type="xstring" value="avg_wind_speed (#1)"/>
+<entry key="31" type="xstring" value="avg_precipitation (#1)"/>
+<entry key="32" type="xstring" value="Hora (#1)"/>
+<entry key="33" type="xstring" value="Week (#1)"/>
+<entry key="34" type="xstring" value="NRROADS (#1)"/>
+<entry key="35" type="xstring" value="Roads A"/>
+<entry key="36" type="xstring" value="Roads EM"/>
+<entry key="37" type="xstring" value="Roads CM"/>
+<entry key="38" type="xstring" value="Roads IL"/>
+<entry key="39" type="xstring" value="Roads N"/>
+<entry key="40" type="xstring" value="Roads M"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.1.v201908131444"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.0.1.v201908131444"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
