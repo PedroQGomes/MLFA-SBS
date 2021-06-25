@@ -1,0 +1,280 @@
+﻿@using FrontEnd.Models;
+@using FrontEnd.Services;
+@using FrontEnd.Data;
+@using System.Threading;
+@using Microsoft.AspNetCore.Components.Web
+@inject RecomendationsContext dbcontext
+@inject RatingService ratingService
+
+<h1 class="text-info">Checkout what recommendations we have for you!</h1>
+
+
+<form class="form-inline active-cyan-4 border-top">
+    <input class="form-control form-control-sm mr-5 w-75" type="text" placeholder="User ID"
+           aria-label="Search" @bind="currentValue">
+</form>
+
+
+
+@if (LoginUser() != null)
+{
+    <div class="card-header border-top">
+        <h1 class="card-title">Best books for your preference </h1>
+
+        <div class="card-columns anyClass">
+            @foreach (var book in getUserRecfBooksList)
+            {
+                <div class="card">
+                    <div class="card-img" style="background-image: url('@book.img_Url_Big');">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@book.title</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <button @onclick="(e => SelectBook(book))"
+                                    data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                                More Info
+                            </button>
+                        </small>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card-header border-top ">
+        <h1 class="card-title">Top Books of @selectedUser.country </h1>
+
+        <div class="card-columns anyClass">
+            @foreach (var book in getTopCountryBooksList)
+            {
+                <div class="card">
+                    <div class="card-img" style="background-image: url('@book.img_Url_Big');">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@book.title</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <button @onclick="(e => SelectBook(book))"
+                                    data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                                More Info
+                            </button>
+                        </small>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card-header border-top">
+        <h1 class="card-title">Best Books of @selectedUser.favorit_author </h1>
+
+        <div class="card-columns anyClass">
+            @foreach (var book in getUserBestAuthList)
+            {
+                <div class="card">
+                    <div class="card-img" style="background-image: url('@book.img_Url_Big');">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@book.title</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <button @onclick="(e => SelectBook(book))"
+                                    data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                                More Info
+                            </button>
+                        </small>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+}
+else
+{
+    @if (isbadRequest() == true)
+    {
+        <div class="alert alert-danger" role="alert">
+            Oops, Looks like you chose an invalid User-ID
+        </div>
+
+    }
+}
+
+
+@if (selectedBook != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedBook.title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">ISBN:  @selectedBook.isbn</li>
+                            <li class="list-group-item">Book-Author:  @selectedBook.autor</li>
+                            <li class="list-group-item">Year-Of-Publication:  @selectedBook.yearRelease</li>
+                            <li class="list-group-item">Publisher:  @selectedBook.publisher</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    @if (@currentBookRating == 0)
+                    {
+                        <span>Rate this book for the first time!</span>
+                    }
+                    else
+                    {
+                        <span>You have rated this book with @currentBookRating </span>
+                    }
+                    @for (int i = 1; i < 11; i++)
+                    {
+                        var currentStar = i;
+                        if (i <= currentBookRating)
+                        {
+                            <span class="fa fa-star checked" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                        else
+                        {
+                            <span class="fa fa-star" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@code
+{
+    private string currentValue;
+    User selectedUser;
+    Book selectedBook;
+    int currentBookRating;
+    string selectedBookid;
+
+    bool badquest = false;
+    bool loadingData = false;
+
+    private string previousvalue = "sbs-tp2";
+
+    List<Book> getTopCountryBooksList;
+
+    List<Book> getUserRecfBooksList;
+
+    List<Book> getUserBestAuthList;
+
+    List<Rating> getUserBooksRatings;
+
+
+    public bool isbadRequest()
+    {
+        return badquest;
+    }
+
+    public bool isLoadingData()
+    {
+        return loadingData;
+    }
+
+    public User LoginUser()
+    {
+
+        if (string.IsNullOrEmpty(currentValue))
+        {
+            selectedUser = null;
+            return null;
+        }
+        else
+        {
+            if (currentValue.Equals(previousvalue))
+            {
+                return selectedUser;
+            }
+            else
+            {
+                selectedUser = null;
+                loadingData = true;
+                previousvalue = string.Copy(currentValue);
+                selectedUser = dbcontext.getUser(currentValue);
+                if (selectedUser == null)
+                {
+                    badquest = true;
+                    loadingData = false;
+                    return selectedUser;
+                }
+                badquest = false;
+                currentBookRating = 0;
+                getUserBooksRatings = dbcontext.getAllRatings(selectedUser.id);
+                getTopCountryBooksList = dbcontext.getTopCountryBooks(selectedUser.country);
+                getUserRecfBooksList = dbcontext.getUserRecfBooks(selectedUser.id);
+                getUserBestAuthList = dbcontext.getUserBestAuth(selectedUser.favorit_author);
+
+            }
+
+
+        }
+        loadingData = false;
+        return selectedUser;
+
+    }
+
+    public void SelectBook(Book book)
+    {
+        selectedBookid = book.isbn;
+        selectedBook = book;
+        GetCurrentRating();
+    }
+
+
+
+    void GetCurrentRating()
+    {
+        Rating rate;
+        try {
+            rate = getUserBooksRatings.First(x => x.UserID == selectedUser.id && x.bookIsbn == selectedBookid);
+            currentBookRating = rate.rating;
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine(e.Message);
+            currentBookRating = 0;
+        }
+    }
+
+    void SubmitRating(int rating)
+    {
+        if(currentBookRating == 0)
+        {
+            dbcontext.addRating(selectedUser.id, selectedBookid, rating);
+            Rating r = new Rating();
+            r.rating = rating;
+            r.bookIsbn = selectedBook.isbn;
+            r.UserID = selectedUser.id;
+            getUserBooksRatings.Add(r);
+        }
+        else
+        {
+            dbcontext.updateRating(selectedUser.id, selectedBookid, rating);
+            Rating rate = getUserBooksRatings.First(x => x.UserID == selectedUser.id && x.bookIsbn == selectedBookid);
+            rate.rating = rating;
+
+        }
+        currentBookRating = rating;
+
+    }
+
+
+}

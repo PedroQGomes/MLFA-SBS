@@ -1,0 +1,9 @@
+﻿@page
+@using FrontEnd.Components
+@model FrontEnd.Pages.recomendedModel
+@{
+}
+
+@(await Html.RenderComponentAsync<Recomended>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>

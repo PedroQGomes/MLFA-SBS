@@ -1,0 +1,52 @@
+[
+  {
+    "User-ID": "1",
+    "ISBN": "0195153448",
+    "Book-Rating": 0
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0002005018",
+    "Book-Rating": 2
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0060973129",
+    "Book-Rating": 0
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0374157065",
+    "Book-Rating": 0
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0393045218",
+    "Book-Rating": 0
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0399135782",
+    "Book-Rating": 6
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0060938412",
+    "Book-Rating": 0
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0140067477",
+    "Book-Rating": 5
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0345465083",
+    "Book-Rating": 4
+  },
+  {
+    "User-ID": "1",
+    "ISBN": "0451625889",
+    "Book-Rating": 3
+  }
+]

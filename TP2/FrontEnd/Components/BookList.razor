@@ -1,0 +1,132 @@
+﻿
+@using FrontEnd.Models;
+@using FrontEnd.Data;
+@using Microsoft.AspNetCore.Components.Web
+@inject RecomendationsContext dbcontext
+
+
+@start()
+
+<div class="card-header">
+    <h1 class="card-title">Top 20 Worldwide </h1>
+
+    <div class="card-columns anyClass">
+        @foreach (var book in getTopWorldBooksList)
+        {
+            <div class="card">
+                <div class="card-img" style="background-image: url('@book.img_Url_Big');">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@book.title</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        <button @onclick="(e => SelectBook(book))"
+                                data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                            More Info
+                        </button>
+                    </small>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="card-header border-top">
+    <h1 class="card-title">This year's best sellers </h1>
+
+    <div class="card-columns anyClass">
+        @foreach (var book in getTopYearBooksList)
+        {
+            <div class="card">
+                <div class="card-img" style="background-image: url('@book.img_Url_Big');">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@book.title</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        <button @onclick="(e => SelectBook(book))"
+                                data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                            More Info
+                        </button>
+                    </small>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+@if (selectedBook != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedBook.title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">ISBN:  @selectedBook.isbn</li>
+                            <li class="list-group-item">Book-Author:  @selectedBook.autor</li>
+                            <li class="list-group-item">Year-Of-Publication:  @selectedBook.yearRelease</li>
+                            <li class="list-group-item">Publisher:  @selectedBook.publisher</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+@code {
+
+    public string title;
+
+    Book selectedBook;
+
+    List<Book> getTopWorldBooksList;
+
+    List<Book> getTopYearBooksList;
+
+    public object start()
+    {
+        if(getTopWorldBooksList == null)
+        {
+            getTopWorldBooksList = dbcontext.getTopWorldBooks();
+        }
+
+        if (getTopYearBooksList == null)
+        {
+            getTopYearBooksList = dbcontext.getTopYearBooks();
+        }
+
+        if (getTopWorldBooksList.Count == 0) {
+            getTopWorldBooksList = dbcontext.getTopWorldBooks();
+        }
+
+        if(getTopYearBooksList.Count == 0) {
+            getTopYearBooksList = dbcontext.getTopYearBooks();
+        }
+
+        return null;
+
+    }
+
+
+    public void SelectBook(Book book) {
+        selectedBook = book;
+    }
+
+
+
+}
